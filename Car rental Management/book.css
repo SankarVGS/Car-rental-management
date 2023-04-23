@@ -1,0 +1,262 @@
+h1{
+    font-family: 'montserrat';
+    position: relative;
+    top:10rem;
+  }
+
+
+
+  
+
+  .button{
+    float: right;
+  }
+
+ 
+
+  hr{
+    border-color: #dbdbdb;
+  }
+
+  .card-text{
+    font-weight: bold;
+  }
+
+  .cart{
+    height:700px;
+    width: 800px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    right:-380px;
+    top:-1700px;
+    display: none;
+   
+    
+
+  }
+  .cart h1{
+    margin-top:-230px;
+    
+  }
+  .cart img{
+    height:450px;
+    width:550px;
+    margin-top: 120px;
+    margin-bottom: -50px;
+  }
+  .cart span{
+    text-align: right;
+  }
+  .days{
+    display: inline;
+   
+    }
+  .days label{
+    font-size:3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 50px;
+
+  }
+  .days input{
+    width:100px;
+    height:50px;
+  }
+  #checkout{
+    background-color: white;
+    border: 2px solid #2a2422;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    transition: 0.5;
+    color: #383433;
+  }
+  #checkout:hover{
+    background-color:#383433 ;
+    color: white;
+  }
+
+
+#close{
+  border-radius: 50%;
+  position: relative;
+  right:-350px;
+  top:-40px;
+  border:2px solid red;
+  color:white;
+  font-size: 30px;
+  background-color: red;
+  width:50px;
+
+}
+
+  @media (min-width: 1024px) and (max-width: 2000px){
+    .car-section{
+      margin: 5rem !important;
+    }
+  }
+
+
+   /* Navbar section */
+
+   .navbar{
+    
+    width: 100%;
+    background: #23393d !important;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.25);
+    transition: .6s;
+    z-index: 10;
+    
+  }
+  .navbar li{
+    display: inline;
+  
+  }
+
+  .logo-one{
+    height:50px; 
+    margin: 10px 50px 10px;
+  }
+
+  .navbar-nav{
+    font-family: 'montserrat';
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .nav-link{
+    margin-right: 10px;
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+  .nav-link:hover{
+    color: #F0c540 !important;
+  }
+
+  nav.sticky{
+    margin-right: 5px;
+  }
+
+  @media (max-width:768px){
+
+    .navbar{
+      z-index: 10;
+    }
+
+    .navbar-brand .logo-one{
+      margin-left: 5px !important;
+      height: 40px;
+    }
+
+    .icons{
+      margin-bottom: 1rem;
+    }
+
+    .row{
+      margin: 1rem;
+      margin-top: 2rem;
+    }
+
+    h1{
+      font-size: 1.8rem;
+      top:8rem;
+    }
+
+
+  }
+
+    /* footer section */
+    footer{
+      background: #273f44;
+      color: #fff;
+      font-family: 'montserrat';
+    }
+    .logo2{
+      height:50px; 
+      margin:30px 20px 5px;
+    }
+
+    .content1{
+      margin:20px;
+      font-size: 16px;
+      line-height: 25px;
+      
+    }
+
+    .content2{
+      margin-top: 50px;
+      margin-left: 30px;
+      font-weight: bold;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+      display: inline-block;
+      font-family: 'open sans';
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .icons{
+      margin-left: 14%;
+      margin-top: 4%;
+    }
+
+    .icons .icon-link{
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    .footer2{
+      background: #333;
+      color: grey;
+      padding: 3px;
+      text-align: center;
+      font-family: 'open sans';
+    }
+    .car-section{
+      display: flex;
+      
+      flex-wrap:wrap;
+      
+      justify-content: center;
+      align-items: center;
+     
+     
+    }
+    .card{
+      
+     background-color: #f5f5f5;
+     border-style: none !important;
+     box-shadow: 4px 10px 12px rgba(0, 0, 0, 0.25);
+      height: 400px;
+      width: 400px;
+      border: 5px solid black;
+      margin:20px auto;
+   
+      
+    }
+    .col{
+      
+      padding: 10px;
+    }
+    .card img{
+      display: flex;
+      justify-content: center;
+      height: 250px;
+      width: 250px;
+      position: relative;
+      left:60px;
+    }
+    .card-img-top{
+    padding: 25px;
+    transition: transform .5s;
+
+  }
+  .card-img-top:hover{
+    transform: scale(1.1);
+  }
